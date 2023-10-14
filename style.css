@@ -1,0 +1,60 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    position: relative;
+    margin-top: 150px;
+    border: 1px rgb(187, 187, 187) solid;
+    width: 200px;
+    background-color: black;
+    height: fit-content;
+    color: white;
+    box-shadow: 2px 2px gainsboro;
+}
+
+.calculator .screen{
+    color: black;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 800;
+    background-color: aliceblue;
+}
+.calculator .calculatorpad{
+    width: 100%;
+    height: 100%;
+}
+
+.calculator .calculatorpad .calculatorBtns{
+    width: 100%;
+    height: 100%;
+    padding: 5px 8px;
+}
+
+.calculator .calculatorpad .calculatorBtns .btnRow .btnCol{
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.calculator .calculatorpad .calculatorBtns .btnRow .btnCol:hover{
+    background-color: rgb(80, 80, 80);
+    transition: 0.3s;
+}
+
+.calculator .calculatorpad .calculatorBtns .btnRow .btnCol .btn{
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: wheat;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: larger;
+    font-weight: 600;
+    padding: 10px;
+
+}
